@@ -1,9 +1,44 @@
+body{
+    text-align: center;
+}
 
 
-
+.adv{
+  padding: 30px;
+}
 .flex-container{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
 }
+
+#box-1{
+  flex: 1;
+  margin: 10px;
+}
+#box-1 h1{
+  background-color:grey;
+}
+#box-2{
+  flex: 1;
+  margin: 10px;
+}
+#box-2 h1{
+  background-color: grey;
+}
+#box-3{
+  flex: 1;
+  margin: 10px;
+}
+#box-3 h1{
+  background-color: grey;
+}
+
+
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
