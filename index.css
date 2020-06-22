@@ -1,11 +1,45 @@
 body{
     text-align: center;
+    background-color: #F8F9F9;
 }
 
+#header-img{
+  width: 50px;
+  margin-top: 3px;
+  position: absolute;
+  margin-left: -25px;
+}
 
+#nav-bar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F9F9;
+}
+#nav-bar li{
+  float: right;
+}
+#nav-bar li a{
+  display: block;
+  color: black;
+  padding: 20px 15px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+#form{
+  padding: 60px;
+}
+
+#submit{
+  background-color: yellow;
+}
 .adv{
   padding: 30px;
 }
+
+
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -13,6 +47,8 @@ body{
     box-sizing: border-box;
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
+    border: 50%;
 }
 
 #box-1{
